@@ -1,23 +1,23 @@
 {
-  "name": "handlebars-helper-isActive",
-  "description": "{{isActive}} handlebars helper. Adds an 'active' class to the 'current page'. Class can be customized.",
+  "name": "handlebars-helper-isactive",
+  "description": "{{isactive}} handlebars helper. Adds an 'active' class to the 'current page'. Class can be customized.",
   "version": "0.1.0",
-  "homepage": "https://github.com/helpers/handlebars-helper-isActive",
+  "homepage": "https://github.com/helpers/handlebars-helper-isactive",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/helpers/handlebars-helper-isActive.git"
+    "url": "https://github.com/helpers/handlebars-helper-isactive.git"
   },
   "bugs": {
-    "url": "https://github.com/helpers/handlebars-helper-isActive/issues"
+    "url": "https://github.com/helpers/handlebars-helper-isactive/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/helpers/handlebars-helper-isActive/blob/master/LICENSE-MIT"
+      "url": "https://github.com/helpers/handlebars-helper-isactive/blob/master/LICENSE-MIT"
     }
   ],
   "main": "./index.js",
@@ -26,14 +26,7 @@
   },
   "keywords": [
     "assemble",
-    "gh button",
-    "gh buttons",
-    "gh-button",
-    "isActive",
-    "isActive",
-    "github buttons",
-    "github",
-    "github-buttons",
+    "isactive",
     "handlebars helper",
     "handlebars",
     "helper"
