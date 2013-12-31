@@ -1,7 +1,7 @@
 {
   "name": "handlebars-helper-isactive",
   "description": "{{isactive}} handlebars helper. Adds an 'active' class to the 'current page'. Class can be customized.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/helpers/handlebars-helper-isactive",
   "author": {
     "name": "Jon Schlinkert",

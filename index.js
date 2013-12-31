@@ -28,7 +28,7 @@ module.exports.register = function (Handlebars, options) {
     context.hash.class = context.hash.class || 'active';
     var active = '';
     if(context.isCurrentPage === true) {
-      active = 'class="' + context.hash.class + '"';
+      active = ' class="' + context.hash.class + '"';
     }
     return new Handlebars.SafeString(active);
   });
