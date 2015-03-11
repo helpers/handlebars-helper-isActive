@@ -1,22 +1,22 @@
-# {{isActive}} [![NPM version](https://badge.fury.io/js/handlebars-helper-isActive.png)](http://badge.fury.io/js/handlebars-helper-isActive)
+# {{isActive}} [![NPM version](https://badge.fury.io/js/handlebars-helper-isactive.png)](http://badge.fury.io/js/handlebars-helper-isactive)
 
 > Generate relative links from the "current page" to other dest pages.
 
 ## Installation
 
-Use [npm](npmjs.org) to install the package: `npm i handlebars-helper-isActive`.
+Use [npm](npmjs.org) to install the package: `npm i handlebars-helper-isactive`.
 
 ## Register the helper
 
-In your project's Gruntfile, to register the helper add `handlebars-helper-isActive` to the `helpers` property in the [Assemble](http://assemble.io) task or target options:
+In your project's Gruntfile, to register the helper add `handlebars-helper-isactive` to the `helpers` property in the [Assemble](http://assemble.io) task or target options:
 
 ```javascript
 grunt.initConfig({
   assemble: {
     options: {
-      // the 'handlebars-helper-isActive' npm module must also be listed in
+      // the 'handlebars-helper-isactive' npm module must also be listed in
       // devDependencies for assemble to automatically resolve the helper
-      helpers: ['handlebars-helper-isActive', 'foo/*.js']
+      helpers: ['handlebars-helper-isactive', 'foo/*.js']
     },
     files: {
       'dist/': ['src/templates/*.hbs']
@@ -31,10 +31,10 @@ Alternatively, you can avoid defining the helper in the [Assemble](https://githu
   "name": "foo",
   "version": "0.1.0",
   "devDependencies": {
-    "handlebars-helper-isActive": "*"
+    "handlebars-helper-isactive": "*"
   },
   "keywords": [
-    "handlebars-helper-isActive"
+    "handlebars-helper-isactive"
   ]
 }
 ```
